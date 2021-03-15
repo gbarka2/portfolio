@@ -15,7 +15,6 @@ function App() {
       .then(res => res.json())
       .then(data => {
         setProjects(data)
-        console.log(data)
       })
   }
 
@@ -33,7 +32,7 @@ function App() {
           <About />
         </Route>
         <Route path="/projects">
-          <Projects />
+          <Projects projects={projects}/>
         </Route>
       </Switch>
       <Footer />

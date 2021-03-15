@@ -3,10 +3,22 @@ import {Link} from "react-router-dom"
 import Button from "../components/Button"
 import Project from "../components/Project"
 
-const Projects = () => {
+const Projects = (props) => {
+  console.log('props', props.projects)
   return (
     <div>
-      <Project />
+      <h3>My Projects</h3>
+      {
+        props.projects !== undefined ?
+        props.projects.map((project, index) => (
+          <Project 
+            key={index}
+            project={project}
+          />
+        ))
+        : <h3>Loading...</h3>
+      }
+
       <Link to="/">
         <Button destination="To Main"/>
       </Link>
