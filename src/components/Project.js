@@ -1,8 +1,8 @@
 import React from "react"
 
-const Project = () => {
+const Project = (props) => {
   return (
-    <h1>Project component</h1>
+    <h1>{props.project.name}</h1>
   )
 }
 
