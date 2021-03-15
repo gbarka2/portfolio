@@ -6,7 +6,7 @@ const WorkHistory = () => {
       <ul>General Assembly
         <li>Full Stack Software Developer</li>
         <li>December 2020 - March 2021</li>
-        <li>Denver, Coloardo</li>
+        <li>Denver, Colorado</li>
         <li>Completed 12 week immersive program preparing myself for a full-stack web development career</li>
         <li>Development skills gained include React.js, Angular.js, Typescript, Ruby On Rails, Node.js, Git, among others</li>
       </ul>
@@ -20,7 +20,7 @@ const WorkHistory = () => {
       <ul>FCM Travel Solutions
         <li>Team Leader</li>
         <li>March 2015 - August 2018</li>
-        <li>Chicago, Illinois & Denver, Coloardo</li>
+        <li>Chicago, Illinois & Denver, Colorado</li>
         <li>Managed business related travel for multinational corporations with travel expenses in excess of $1 million annually</li>
         <li>Oversaw in-office operations such as training new employees, launching new accounts, managing existing accounts, and following “one best way” policy in addition to daily duties</li>
       </ul>
