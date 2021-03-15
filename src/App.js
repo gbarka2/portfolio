@@ -1,24 +1,26 @@
 import './App.css';
-import BrandStatement from "./components/BrandStatement"
+import {Route, Switch} from 'react-router-dom'
+import Main from "./pages/Main"
 import About from "./pages/About"
 import Footer from "./components/Footer"
-import Image from "./components/Image"
 import Projects from "./pages/Projects"
-import Title from "./components/Title"
-
 
 function App() {
   return (
     <div>
-      <h2> App components</h2>
-      <Image />
-      <Title />
-      <About />
-      <BrandStatement />
-      <Projects />
+      <Switch>
+        <Route exact path="/">
+          <Main />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+      </Switch>
       <Footer />
     </div>
-
   );
 }
 

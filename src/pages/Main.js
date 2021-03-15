@@ -1,19 +1,18 @@
 import React from "react"
 import BrandStatement from "../components/BrandStatement"
-import Education from "../components/Edcuation"
-import Skills from "../components/Skills"
+import Title from "../components/Title"
 import Image from "../components/Image"
 
-const About = () => {
+const Main = () => {
   return (
     <div>
-      <h1>About component</h1>
+      <h1>Main component</h1>
       <Image />
       <BrandStatement />
-      <Skills />
-      <Education /> 
+      <Title />
     </div>
+
   )
 }
 
-export default About
+export default Main
