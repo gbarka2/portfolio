@@ -4,7 +4,7 @@ import Title from "../components/Title"
 import Image from "../components/Image"
 import Nav from "../components/Nav"
 
-const Main = () => {
+const Main = (props) => {
   return (
     <div>
       <Image />

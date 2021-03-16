@@ -26,7 +26,7 @@ function App() {
     <div>
       <Switch>
         <Route exact path="/">
-          <Main />
+          <Main projects={projects}/>
         </Route>
         <Route path="/about">
           <About />
@@ -35,7 +35,7 @@ function App() {
           <Projects projects={projects}/>
         </Route>
       </Switch>
-      <Footer />
+      <Footer id="footer"/>
     </div>
   );
 }

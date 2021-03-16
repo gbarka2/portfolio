@@ -34,6 +34,11 @@ const Project = (props) => {
           : <h3>Loading...</h3>
         }
       </div>
+      {/* <div>
+        <p>{props.project.idea}</p>
+        <p>{props.project.goal}</p>
+        <p>{props.project.features}</p>
+      </div> */}
       <div>
         <button onClick={() => viewWebsite(url)}>View Website</button>
         <button onClick={() => viewGithub(github)}>View Github</button>
