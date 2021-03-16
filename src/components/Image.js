@@ -3,7 +3,7 @@ import "./Image.css"
 
 const Image = () => {
   return (
-    <img src="https://res.cloudinary.com/decffa3wj/image/upload/v1615350739/85876CC9-31C8-4381-A220-5CE60872753F_mwzhqz.jpg" alt="Gary Barkauski profile"></img>
+    <img className="profile-image"src="https://res.cloudinary.com/decffa3wj/image/upload/v1615925166/Portfolio/IMG_4941_wb8d3y.jpg" alt="Gary Barkauski profile"></img>
   )
 }
 

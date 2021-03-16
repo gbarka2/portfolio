@@ -1,8 +1,9 @@
 import React from "react"
+import "./Title.css"
 
 const Title = () => {
   return (
-    <h1>Gary Barkauski</h1>
+    <p className="name">Gary Barkauski</p>
   )
 }
 
