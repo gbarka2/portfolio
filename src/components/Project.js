@@ -2,14 +2,24 @@ import React from "react"
 import "./Project.css"
 
 const Project = (props) => {
-  console.log(props.project)
+  const techs = props.project.technologies
+
   return (
-    <div>
-      <video id="project-video" width="640" height="480" autoPlay muted>
+    <div className="project-div">
+      <video id="project-video" width="640" height="480" autoPlay muted loop>
         <source src={props.project.video} type="video/mp4">
         </source>
       </video>
-      <h1>{props.project.name}</h1>
+      <h3>{props.project.name}</h3>
+      <div>
+        {
+          techs !== undefined ?
+          techs.map((tech, index) => (
+            <p key={index}>{tech}</p>
+          ))
+          : <h3>Loading...</h3>
+        }
+      </div>
     </div>
   )
 }
