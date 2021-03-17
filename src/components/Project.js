@@ -17,19 +17,19 @@ const Project = (props) => {
 
   return (
     <div className="project-div">
-      <video id="project-video" width="640" height="480" autoPlay muted loop>
+      <video id="project-video" width="100%" height="100%" autoPlay muted loop>
         <source src={props.project.video} type="video/mp4">
         </source>
       </video>
-      <div>
+      <div className="project-header-div">
         <h3>{props.project.name}</h3>
         <p>{props.project.date}</p>
       </div>
-      <div>
+      <div className="project-tech-div">
         {
           techs !== undefined ?
           techs.map((tech, index) => (
-            <p key={index}>{tech}</p>
+            <p key={index} className="tech-p">{tech}</p>
           ))
           : <h3>Loading...</h3>
         }
@@ -39,7 +39,7 @@ const Project = (props) => {
         <p>{props.project.goal}</p>
         <p>{props.project.features}</p>
       </div> */}
-      <div>
+      <div className="project-buttons-div">
         <button onClick={() => viewWebsite(url)}>View Website</button>
         <button onClick={() => viewGithub(github)}>View Github</button>
       </div>

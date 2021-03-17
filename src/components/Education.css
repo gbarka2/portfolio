@@ -1,0 +1,23 @@
+.education-div {
+  text-align: center;
+  font-family: Playball, cursive;
+  font-size: 24px;
+  margin-bottom: 33px;
+  margin-top: 21px;
+  width: 100%;
+}
+
+.education-article {
+  text-align: left;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  margin: 10px 5px 7px 5px;
+}
+
+.education-content {
+  margin: 0;
+}
+
+.playball {
+  font-family: Playball, cursive;
+}

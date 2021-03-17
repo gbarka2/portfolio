@@ -30,8 +30,13 @@ const About = () => {
 
           <Skills />
         </div>
-        <WorkHistory />
-        <Education /> 
+        <div id="about-history-container">
+          <WorkHistory />
+          <Education /> 
+          <Link to="/">
+            <Button destination="To Main"/>
+          </Link>
+        </div>
       </div>
       <Footer />
     </div>
