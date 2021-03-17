@@ -15,16 +15,18 @@ const Projects = (props) => {
           <Button destination="To Main"/>
         </Link>
       </div>
-      {
-        props.projects !== undefined ?
-        props.projects.map((project, index) => (
-          <Project 
-            key={index}
-            project={project}
-          />
-        ))
-        : <h3>Loading...</h3>
-      }
+      <div className="projects-container">
+        {
+          props.projects !== undefined ?
+          props.projects.map((project, index) => (
+            <Project 
+              key={index}
+              project={project}
+            />
+          ))
+          : <h3>Loading...</h3>
+        }
+      </div>
       <div className="projects-bottom-button">
         <Link to="/">
           <Button destination="To Main"/>

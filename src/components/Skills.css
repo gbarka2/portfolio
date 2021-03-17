@@ -33,5 +33,13 @@
   color: whitesmoke;
   text-align: center;
   font-family: Montserrat, sans-serif;
-  box-shadow: 5px 3px 3px silver;
+  box-shadow: 0 8px 6px -6px silver;
+}
+
+@media screen and (min-width: 768px) {
+
+  .skills-container {
+    margin-top: 30px;
+  }
+
 }

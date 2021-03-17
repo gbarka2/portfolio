@@ -1,6 +1,12 @@
 .project-div {
   color: #222D4A;
   margin-bottom: 33px;
+  padding-bottom: 20px;
+  border-bottom: #222D4A solid 3px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #project-video {
@@ -38,7 +44,7 @@
   box-shadow: 0 8px 6px -6px silver;
   border-radius: 10px;
   padding: 7px;
-  margin: 10px 10px;
+  margin: 5px 10px;
   font-family: Montserrat, sans-serif;
   background-color: #3d5491;
   color: whitesmoke;
@@ -59,4 +65,26 @@
   border-radius: 10px;
   font-family: Montserrat, sans-serif;
   height: 33px;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .project-div {
+    width: 40%;
+    border: 3px solid silver;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 6px;
+    box-shadow: 0 8px 6px -6px silver;
+    justify-content: space-between;
+  }
+
+  #project-video {
+    height: 200px;
+    background-color: white;
+  }
+
+  .project-tech-div {
+    margin-bottom: 10px;
+  }
 }

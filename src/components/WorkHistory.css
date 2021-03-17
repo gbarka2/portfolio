@@ -3,6 +3,7 @@
   font-family: Playball, cursive;
   text-align: center;
   margin-top: 21px;
+  color: #182543;
 }
 
 .history-ul {
@@ -10,6 +11,9 @@
   font-size: 18px;
   padding: 5px;
   text-align: left;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
+  background-color: whitesmoke;
 }
 
 .montserrat {
@@ -26,4 +30,40 @@
 
 .first {
   margin-bottom: 7px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .history-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .history-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .history-ul {
+    width: 250px;
+    margin: 20px;
+    border: 3px solid silver;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 8px 6px -6px silver;
+  }
+
+  .second {
+    margin-bottom: 10px;
+  }
+
+  .last {
+    margin-bottom: 10px;
+  }
+
 }

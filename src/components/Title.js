@@ -3,7 +3,10 @@ import "./Title.css"
 
 const Title = () => {
   return (
-    <p className="name">Gary Barkauski</p>
+    <div className="name-div">
+      <p className="main-name">Gary Barkauski</p>
+      <p className="main-subtitle">Software Developer</p>
+    </div>
   )
 }
 
