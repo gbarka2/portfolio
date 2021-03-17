@@ -1,0 +1,37 @@
+.about-container {
+display: flex;
+flex-direction: column;
+/* overflow-y: hidden; */
+}
+
+.about-header-container {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+#about-title-container {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+  padding-left: 57px;
+  padding-right: 7px;
+  text-align: right;
+}
+
+#about-brand-container {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  text-align: center;
+  padding-right: 7px;
+}
+
+#about-skills-container {
+  display: flex;
+  flex-direction: row;
+}

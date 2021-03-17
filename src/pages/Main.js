@@ -4,6 +4,7 @@ import Title from "../components/Title"
 import Image from "../components/Image"
 import Nav from "../components/Nav"
 import "./Main.css"
+import Footer from "../components/Footer"
 
 const Main = (props) => {
   return (
@@ -16,6 +17,9 @@ const Main = (props) => {
         </div>
       </div>
       <Nav />
+      <div className="main-footer-div">
+        <Footer />
+      </div>
     </div>
 
   )

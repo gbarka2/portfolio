@@ -37,7 +37,6 @@ function App() {
           <Projects projects={projects}/>
         </Route>
       </Switch>
-      <Footer id="footer"/>
     </div>
   );
 }
