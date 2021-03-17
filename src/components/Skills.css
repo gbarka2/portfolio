@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 75px;
+  margin-top: 120px;
 }
 
 .skills-item-container {
@@ -32,4 +32,6 @@
   background-color: #3d5491;
   color: whitesmoke;
   text-align: center;
+  font-family: Montserrat, sans-serif;
+  box-shadow: 5px 3px 3px silver;
 }
