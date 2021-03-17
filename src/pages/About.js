@@ -20,13 +20,14 @@ const About = () => {
             <Title />
           </div>
           <div id="about-brand-container">
-            <BrandStatement />
+            <BrandStatement />          
+            <Link to="/">
+              <Button destination="To Main"/>
+            </Link>
           </div>
         </div>
         <div id="about-skills-container">
-          <Link to="/">
-            <Button destination="To Main"/>
-          </Link>
+
           <Skills />
         </div>
         <WorkHistory />
