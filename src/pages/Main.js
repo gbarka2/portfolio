@@ -10,13 +10,19 @@ const Main = (props) => {
   return (
     <div className="main-div">
       <div className="main-header">
-        <Image />
-        <div className="main-text">
+        <div className="main-image">
+          <Image />
+        </div>
+        <div className="main-title">
           <Title />
+        </div>
+        <div className="brand-text">
           <BrandStatement />
         </div>
       </div>
-      <Nav />
+      <div className="main-nav">
+        <Nav />
+      </div>
       <div className="main-footer-div">
         <Footer />
       </div>

@@ -1,7 +1,8 @@
 .brandstatement-div {
-  text-align: right;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #182543;
+  width: 100%;
 }
 
 .subtitle {
