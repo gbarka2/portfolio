@@ -30,8 +30,10 @@ const About = () => {
 
           <Skills />
         </div>
-        <WorkHistory />
-        <Education /> 
+        <div id="about-history-container">
+          <WorkHistory />
+        </div>
+          <Education /> 
       </div>
       <Footer />
     </div>

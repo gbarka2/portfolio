@@ -1,0 +1,29 @@
+.history-div {
+  font-size: 24px;
+  font-family: Playball, cursive;
+  text-align: center;
+  margin-top: 21px;
+}
+
+.history-ul {
+  list-style-type: none;
+  font-size: 18px;
+  padding: 5px;
+  text-align: left;
+}
+
+.montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.small {
+  font-size: 11px;
+}
+
+.mid {
+  font-size: 14px;
+}
+
+.first {
+  margin-bottom: 7px;
+}
