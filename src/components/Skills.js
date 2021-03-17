@@ -1,5 +1,6 @@
 import React from "react"
 import Button from "./Button"
+import {Link} from "react-router-dom"
 import "./Skills.css"
 
 const Skills = () => {
@@ -21,7 +22,9 @@ const Skills = () => {
         <li className="skills-item">HTML / CSS</li>
       </div>
       <div className="skills-button">
-        <Button destination="To Projects"/>
+        <Link to="/projects">
+          <Button destination="To Projects"/>
+        </Link>
       </div>
     </ul>
   )
