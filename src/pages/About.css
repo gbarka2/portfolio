@@ -52,3 +52,13 @@ align-items: center;
   align-items: center;
   margin-bottom: 33px;
 }
+
+@media screen and (min-width: 1024px) {
+
+  #about-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+}
