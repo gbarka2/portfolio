@@ -36,10 +36,25 @@
   box-shadow: 0 8px 6px -6px silver;
 }
 
+.skills-button {
+  margin-top: 20px;
+}
+
 @media screen and (min-width: 768px) {
 
   .skills-container {
     margin-top: 30px;
   }
 
+}
+
+@media screen and (min-width: 1440px) {
+
+  .skills-container {
+    margin-top: 0;
+  }
+
+  .skills-title {
+    font-size: 42px;
+  }
 }
