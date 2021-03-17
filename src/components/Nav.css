@@ -5,3 +5,10 @@
   margin-top: 15px;
 }
 
+@media screen and (min-width: 1440px) {
+
+  .nav-div {
+    margin-top: 135px;
+  }
+}
+
