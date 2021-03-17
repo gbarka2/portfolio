@@ -1,20 +1,25 @@
 import React from "react"
+import "./Skills.css"
 
 const Skills = () => {
   return (
-    <ul>Technical Skills
-      <li>Javascript</li>
-      <li>React.js</li>
-      <li>Angular.js</li>
-      <li>Typescript</li>
-      <li>jQuery</li>
-      <li>Git</li>
-      <li>Node.js</li>
-      <li>Express.js</li>
-      <li>MongoDB</li>
-      <li>Ruby On Rails</li>
-      <li>PostgresQL</li>
-      <li>HTML / CSS</li>
+    <ul className="skills-container">
+      <p className="skills-title">Skills</p>
+      <div className="skills-item-container">
+        <li className="skills-item">Javascript</li>
+        <li className="skills-item">React.js</li>
+        <li className="skills-item">Angular.js</li>
+        <li className="skills-item">Typescript</li>
+        <li className="skills-item">jQuery</li>
+        <li className="skills-item">Git</li>
+        <li className="skills-item">Node.js</li>
+        <li className="skills-item">Express.js</li>
+        <li className="skills-item">MongoDB</li>
+        <li className="skills-item">Ruby On Rails</li>
+        <li className="skills-item">PostgresQL</li>
+        <li className="skills-item">HTML / CSS</li>
+
+      </div>
     </ul>
   )
 }

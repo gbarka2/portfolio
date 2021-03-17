@@ -1,3 +1,9 @@
-img {
-  width: 20%;
+.profile-image {
+  grid-column: 1 / 2;
+  width: 150%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid whitesmoke;
+  box-shadow: 10px 3px 7px silver;
 }

@@ -8,6 +8,9 @@ const Projects = (props) => {
   return (
     <div>
       <h3>My Projects</h3>
+      <Link to="/">
+        <Button destination="To Main"/>
+      </Link>
       {
         props.projects !== undefined ?
         props.projects.map((project, index) => (
@@ -18,10 +21,6 @@ const Projects = (props) => {
         ))
         : <h3>Loading...</h3>
       }
-
-      <Link to="/">
-        <Button destination="To Main"/>
-      </Link>
     </div>
   )
 }

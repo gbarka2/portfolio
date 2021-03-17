@@ -2,7 +2,6 @@ import './App.css';
 import {Route, Switch} from 'react-router-dom'
 import Main from "./pages/Main"
 import About from "./pages/About"
-import Footer from "./components/Footer"
 import Projects from "./pages/Projects"
 import React from 'react';
 
@@ -23,10 +22,12 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className="app-div">
+      <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playball&display=swap" rel="stylesheet"></link>
       <Switch>
         <Route exact path="/">
-          <Main />
+          <Main projects={projects}/>
         </Route>
         <Route path="/about">
           <About />
@@ -35,7 +36,6 @@ function App() {
           <Projects projects={projects}/>
         </Route>
       </Switch>
-      <Footer />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import {faFileAlt} from "@fortawesome/free-regular-svg-icons"
 import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons"
 import {faGithubAlt} from "@fortawesome/free-brands-svg-icons"
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
+import "./Footer.css"
 
 const Footer = () => {
 
@@ -24,7 +25,7 @@ const Footer = () => {
   }
 
   return (
-    <div>
+    <div className="footer-div">
       <FontAwesomeIcon icon={faFileAlt} onClick={openResume}/>
       <FontAwesomeIcon icon={faLinkedinIn} onClick={openLinkedIn}/>
       <FontAwesomeIcon icon={faGithubAlt} onClick={openGithub}/>

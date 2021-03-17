@@ -1,0 +1,41 @@
+.about-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* overflow-y: hidden; */
+}
+
+.about-header-container {
+  /* grid-column: 1 / 4;
+  grid-row: 1 / 2; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+#about-title-container {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+  padding-left: 57px;
+  padding-right: 7px;
+  text-align: right;
+}
+
+#about-brand-container {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  text-align: center;
+  padding-right: 7px;
+  height: 50px;
+}
+
+#about-skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,37 @@
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.skills-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-title {
+  font-family: Playball, cursive;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.skills-item {
+  width: 111px;
+  margin: 3px;
+  padding: 5px;
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  background-color: #3d5491;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  box-shadow: 5px 3px 3px silver;
+}
