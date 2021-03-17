@@ -2,9 +2,10 @@
   font-size: 48px;
   display: flex;
   justify-content: space-around;
-  color: blue;
-  position: fixed;
+  color: #222D4A;
+  position: absolute;
   bottom: 0;
   width: 100%;
   padding: 10px 0;
+
 }

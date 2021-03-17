@@ -1,8 +1,9 @@
 import React from "react"
+import "./Button.css"
 
 const Button = (props) => {
   return (
-    <button>{props.destination}</button>
+    <button className="routing-button">{props.destination}</button>
   )
 }
 

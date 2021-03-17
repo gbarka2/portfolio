@@ -23,7 +23,9 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className="app-div">
+      <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playball&display=swap" rel="stylesheet"></link>
       <Switch>
         <Route exact path="/">
           <Main projects={projects}/>
