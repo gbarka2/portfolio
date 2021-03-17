@@ -24,6 +24,11 @@ align-items: center;
   padding-left: 57px;
   padding-right: 7px;
   text-align: right;
+  border-top: 1px solid #222D4A;
+  border-right: 1px solid #222D4A;
+  border-bottom: 1px solid #222D4A;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 #about-brand-container {
