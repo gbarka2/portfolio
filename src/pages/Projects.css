@@ -1,0 +1,20 @@
+.projects-div {
+  color: #222D4A;
+}
+
+.projects-title-div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  margin: 10px;
+  font-family: Playball, cursive;
+  font-size: 32px;
+}
+
+.projects-title-div h2 {
+  margin-bottom: 0;
+}
+
+.projects-bottom-button {
+  margin-bottom: 33px;
+}

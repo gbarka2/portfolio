@@ -1,3 +1,62 @@
 .project-div {
-  border: 1px solid red;
+  color: #222D4A;
+  margin-bottom: 33px;
+}
+
+#project-video {
+  border: 1px solid silver;
+  box-shadow: 0 8px 6px -6px silver;
+}
+
+.project-header-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-header-div h3,
+.project-header-div p {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.project-header-div h3 {
+  margin-top: 10px;
+}
+
+.project-tech-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tech-p {
+  border: 3px solid whitesmoke;
+  box-shadow: 0 8px 6px -6px silver;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 10px 10px;
+  font-family: Montserrat, sans-serif;
+  background-color: #3d5491;
+  color: whitesmoke;
+}
+
+.project-buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-buttons-div button {
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+  box-shadow: 0 8px 6px -6px silver;
+  background-color: #222D4A;
+  border-radius: 10px;
+  font-family: Montserrat, sans-serif;
+  height: 33px;
 }
