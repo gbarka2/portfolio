@@ -54,3 +54,26 @@
 .main-footer-div {
   width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+  
+  .main-image {
+    width: 120%;
+    /* margin-left: 40px; */
+  }
+
+  .main-title {
+    margin-right: 20px;
+    width: 500px;
+  }
+
+  .brand-text {
+    height: 200px;
+  }
+
+  .main-nav {
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+
+}
