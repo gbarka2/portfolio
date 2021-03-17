@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "./Button"
 import "./Skills.css"
 
 const Skills = () => {
@@ -18,7 +19,9 @@ const Skills = () => {
         <li className="skills-item">Ruby On Rails</li>
         <li className="skills-item">PostgresQL</li>
         <li className="skills-item">HTML / CSS</li>
-
+      </div>
+      <div className="skills-button">
+        <Button destination="To Projects"/>
       </div>
     </ul>
   )

@@ -22,3 +22,14 @@
     font-size: 48px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+
+  .main-name {
+    font-size: 100px;
+  }
+
+  .main-subtitle {
+    font-size: 50px;
+  }
+}

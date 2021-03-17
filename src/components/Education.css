@@ -45,3 +45,9 @@
   }
 
 }
+
+@media screen and (min-width: 1440px) {
+  .education-container {
+    font-size: 42px;
+  }
+}
