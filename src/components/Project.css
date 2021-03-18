@@ -65,6 +65,15 @@
   border-radius: 10px;
   font-family: Montserrat, sans-serif;
   height: 33px;
+  outline: none;
+}
+
+.project-buttons-div button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  background-color: whitesmoke;
+  border: 3px solid #222D4A;
+  color: #222D4A;
 }
 
 @media screen and (min-width: 768px) {
