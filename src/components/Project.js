@@ -6,6 +6,17 @@ const Project = (props) => {
   const techs = props.project.technologies
   const url = props.project.url
   const github = props.project.github
+  const heroku = props.project.heroku
+
+  // const herokuTest = () => {
+  //   const herokuButton = document.getElementById("heroku")
+  //   console.log(herokuButton)
+  //   herokuButton.className += "hide"
+  //   // if (herokuButton.className === "none") {
+  //     // herokuButton.className = "heroku"
+  //     console.log('this works')
+  //   // }
+  // }
 
   const viewWebsite = (url) => {
     window.open(url)
@@ -13,6 +24,10 @@ const Project = (props) => {
 
   const viewGithub = (github) => {
     window.open(github)
+  }
+
+  const viewHeroku = (heroku) => {
+    window.open(heroku)
   }
 
   return (
@@ -42,6 +57,11 @@ const Project = (props) => {
       <div className="project-buttons-div">
         <button onClick={() => viewWebsite(url)}>View Website</button>
         <button onClick={() => viewGithub(github)}>View Github</button>
+        {
+          props.project.heroku !== "" ?
+          <button onClick={() => viewHeroku(heroku)}>View Heroku</button>
+          : ""
+        }
       </div>
     </div>
   )
