@@ -26,10 +26,10 @@ const Footer = () => {
 
   return (
     <div className="footer-div">
-      <FontAwesomeIcon icon={faFileAlt} onClick={openResume}/>
-      <FontAwesomeIcon icon={faLinkedinIn} onClick={openLinkedIn}/>
-      <FontAwesomeIcon icon={faGithubAlt} onClick={openGithub}/>
-      <FontAwesomeIcon icon={faEnvelope} onClick={openEmail}/>
+      <FontAwesomeIcon className="icon" icon={faFileAlt} onClick={openResume}/>
+      <FontAwesomeIcon className="icon" icon={faLinkedinIn} onClick={openLinkedIn}/>
+      <FontAwesomeIcon className="icon" icon={faGithubAlt} onClick={openGithub}/>
+      <FontAwesomeIcon className="icon" icon={faEnvelope} onClick={openEmail}/>
     </div>
   )
 }
