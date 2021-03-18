@@ -8,24 +8,29 @@ import Footer from "../components/Footer"
 
 const Main = (props) => {
   return (
-    <div className="main-div">
-      <div className="main-header">
-        <div className="main-image">
-          <Image />
+
+
+    
+      <div className="main-div">
+        <div className="main-header">
+          <div className="main-image">
+            <Image />
+          </div>
+          <div className="main-title">
+            <Title />
+          </div>
+          <div className="brand-text">
+            <BrandStatement />
+          </div>
+          <div className="main-footer-div">
+            <div className="main-nav">
+              <Nav />
+            </div>
+            <Footer />
+          </div>
         </div>
-        <div className="main-title">
-          <Title />
-        </div>
-        <div className="brand-text">
-          <BrandStatement />
-        </div>
-      </div>
-      <div className="main-nav">
-        <Nav />
-      </div>
-      <div className="main-footer-div">
-        <Footer />
-      </div>
+        {/* <div className="main-nav">
+        </div> */}
     </div>
 
   )
