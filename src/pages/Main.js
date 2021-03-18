@@ -19,12 +19,12 @@ const Main = (props) => {
         <div className="brand-text">
           <BrandStatement />
         </div>
-      </div>
-      <div className="main-nav">
-        <Nav />
-      </div>
-      <div className="main-footer-div">
-        <Footer />
+        <div className="main-footer-div">
+          <div className="main-nav">
+            <Nav />
+          </div>
+          <Footer />
+        </div>
       </div>
     </div>
 

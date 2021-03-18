@@ -1,10 +1,5 @@
 .main-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
   width: 100%;
-  height: 100%;
   padding-top: 25px;
   margin-top: 15px;
 }
@@ -12,10 +7,9 @@
 .main-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 3fr .5fr 1fr;
   gap: 15px;
   margin: 10px;
-  height: 500px;
 }
 
 .main-image {
@@ -39,26 +33,30 @@
 .brand-text {
   grid-column: 1 / 3;
   grid-row: 2 / 3;
-  height: 200px;
+  height: 100px;
 }
 
 .main-nav {
   grid-column: 1 / 3;
   grid-row: 3 / 4;
   margin-bottom: 33px;
-  margin-top: 15px;
+  margin-top: 30px;
   width: 100%;
 }
 
 .main-footer-div {
   width: 100%;
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+  height: 50%;
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
   
   .main-image {
-    width: 120%;
-    /* margin-left: 40px; */
+    width: 200%;
+    margin-top: 20px;
   }
 
   .main-title {
@@ -67,7 +65,7 @@
   }
 
   .brand-text {
-    height: 200px;
+    height: 100px;
   }
 
   .main-nav {
@@ -79,22 +77,24 @@
 
 @media screen and (min-width: 1024px) {
 
-  .main-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 100%; */
-    /* width: 200px; */
-    /* height: 200px; */
+  .main-header {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .5fr .5fr;
   }
 
   .main-image {
-    width: 110%;
+    width: 100%;
     height: 100%;
   }
 
-  .main-nav {
-    margin-top: 350px;
+  .main-title {
+    width: 700px;
+    height: 300px;
+    margin-top: 40px;
+  }
+
+  .main-footer-div {
+    margin: 0;
   }
 
 }
@@ -104,10 +104,6 @@
   .main-title {
     width: 85%;
     margin-right: 100px;
-  }
-  
-  .main-nav {
-    margin-top: 205px;
   }
 
   .main-image {
