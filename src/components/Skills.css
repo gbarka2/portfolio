@@ -15,6 +15,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #3d5491;
+
+  box-shadow: 0 8px 6px -6px silver;
 }
 
 .skills-title {
@@ -27,13 +30,14 @@
   width: 111px;
   margin: 3px;
   padding: 5px;
-  border: 3px solid whitesmoke;
-  border-radius: 10px;
-  background-color: #3d5491;
+  /* border: 3px solid whitesmoke; */
+  /* border-radius: 10px; */
+  /* background-color: #3d5491; */
   color: whitesmoke;
   text-align: center;
+  font-size: 18px;
   font-family: Montserrat, sans-serif;
-  box-shadow: 0 8px 6px -6px silver;
+  /* box-shadow: 0 8px 6px -6px silver; */
 }
 
 .skills-button {

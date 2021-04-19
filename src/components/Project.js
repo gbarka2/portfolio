@@ -8,26 +8,8 @@ const Project = (props) => {
   const github = props.project.github
   const heroku = props.project.heroku
 
-  // const herokuTest = () => {
-  //   const herokuButton = document.getElementById("heroku")
-  //   console.log(herokuButton)
-  //   herokuButton.className += "hide"
-  //   // if (herokuButton.className === "none") {
-  //     // herokuButton.className = "heroku"
-  //     console.log('this works')
-  //   // }
-  // }
-
   const viewWebsite = (url) => {
     window.open(url)
-  }
-
-  const viewGithub = (github) => {
-    window.open(github)
-  }
-
-  const viewHeroku = (heroku) => {
-    window.open(heroku)
   }
 
   return (
@@ -36,10 +18,6 @@ const Project = (props) => {
         <source src={props.project.video} type="video/mp4">
         </source>
       </video>
-      <div className="project-header-div">
-        <h3>{props.project.name}</h3>
-        <p>{props.project.date}</p>
-      </div>
       <div className="project-tech-div">
         {
           techs !== undefined ?
@@ -49,17 +27,16 @@ const Project = (props) => {
           : <h3>Loading...</h3>
         }
       </div>
-      {/* <div>
-        <p>{props.project.idea}</p>
-        <p>{props.project.goal}</p>
-        <p>{props.project.features}</p>
-      </div> */}
+      <div className="project-header-div">
+        <h3>{props.project.name}</h3>
+        <p>{props.project.date}</p>
+      </div>
       <div className="project-buttons-div">
         <button onClick={() => viewWebsite(url)}>View Website</button>
-        <button onClick={() => viewGithub(github)}>View Github</button>
+        <button onClick={() => viewWebsite(github)}>View Github</button>
         {
           props.project.heroku !== "" ?
-          <button onClick={() => viewHeroku(heroku)}>View Heroku</button>
+          <button onClick={() => viewWebsite(heroku)}>View Heroku</button>
           : ""
         }
       </div>
